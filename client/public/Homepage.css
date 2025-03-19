@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #edf5e1;
+  margin: 0;
+  padding: 0;
+}
+.homepage {
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 24px;
+  color: #0f4103;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 190px;
+}
+
+.input {
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  width: 100%;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #d9e8d8;
+  color: #0d0c22;
+  box-shadow: 0 0 5px #c1d9bf, 0 0 0 10px #f5f5f5eb;
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #777;
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #777;
+  width: 1rem;
+  height: 1rem;
+}
+
+.search-btn {
+  width: 70px;
+  height: 30px;
+  font-size: 10px;
+  background: #b5df93;
+  border: none;
+  border-radius: 50px;
+  color: #383737;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.search-btn:hover {
+  box-shadow: inset 0 0 0 4px #b14802, inset 0 0 0 8px #ffd166,
+    inset 0 0 0 12px #06d6a0, inset 0 0 0 16px #118ab2;
+  background: #073b4c;
+  color: #fff;
+}
+.menu {
+  text-align: center;
+  margin-top: 40px;
+}
+.menu h3 {
+  font-size: 24px;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.menu-item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
