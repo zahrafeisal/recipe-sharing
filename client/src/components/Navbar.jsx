@@ -31,11 +31,12 @@ function Navbar() {
           <Link to="/signup" style={linkStyle}>
             Sign Up
           </Link>
+          <Link to="/profile" style={linkStyle}>
+            Profile
+          </Link>
         </>
       ) : (
-        <Link to="/profile" style={linkStyle}>
-          Profile
-        </Link>
+        pass
       )}
     </nav>
   );
