@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import "./Footer.css";
 
 function Footer() {
@@ -23,17 +24,17 @@ function Footer() {
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="#">
-              <i className="fab fa-facebook"></i>
+            <a href="/" aria-label="Facebook">
+              <FaFacebook />
             </a>
-            <a href="#">
-              <i className="fab fa-twitter"></i>
+            <a href="/" aria-label="Twitter">
+              <FaTwitter />
             </a>
-            <a href="#">
-              <i className="fab fa-instagram"></i>
+            <a href="/" aria-label="Instagram">
+              <FaInstagram />
             </a>
-            <a href="#">
-              <i className="fab fa-youtube"></i>
+            <a href="/" aria-label="YouTube">
+              <FaYoutube />
             </a>
           </div>
         </div>
