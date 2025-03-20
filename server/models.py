@@ -38,12 +38,13 @@ class User(db.Model):
             'username': self.username  
         }  
 
+
     # Relationships
     recipes = db.relationship('Recipe', backref='user', lazy=True)
 
     serialize_rules = ('-recipes.user',)
 
-
+    
 class Recipe(db.Model, SerializerMixin):
     __tablename__ = 'recipes'
 

@@ -45,4 +45,5 @@ if __name__ == '__main__':
             recipe.tags.append(choice(tags))
 
         db.session.commit()
+        
         print("✅ Database seeded successfully!")
