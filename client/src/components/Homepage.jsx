@@ -11,9 +11,7 @@ function Homepage() {
           <li>
             <Link to="/about">Know about us</Link>
           </li>
-          <li>
-            <Link to="/reviews">Reviews</Link>
-          </li>
+
           <li>
             <Link to="/login">Login</Link>
           </li>
