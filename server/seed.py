@@ -2,6 +2,7 @@
 
 from random import choice
 from faker import Faker
+from werkzeug.security import generate_password_hash
 from app import app
 from models import db, User, Recipe, Tag
 
@@ -15,8 +16,14 @@ if __name__ == '__main__':
         db.drop_all()
         db.create_all()
 
-        # Create Users
-        users = [User(username=fake.user_name()) for _ in range(3)]
+        # Create Users with hashed passwords
+        users = [
+            User(
+                username=fake.user_name(),
+                password_hash=generate_password_hash("password123")  # Replace with actual password hashing
+            )
+            for _ in range(3)
+        ]
         db.session.add_all(users)
 
         # Create Recipes
