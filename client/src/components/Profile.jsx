@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import RecipeCard from "./RecipeCard";
-import "./Profile.css"; // Ensure this file exists
+import "./Profile.css";
 
 function Profile() {
   const navigate = useNavigate();
@@ -9,13 +9,10 @@ function Profile() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    // Simulate API call to fetch user info and recipes
     const fetchUserData = async () => {
       try {
-        // Replace with actual API call
         await new Promise((resolve) => setTimeout(resolve, 1000));
 
-        // Sample Data
         setUser({ name: "John Doe", email: "johndoe@example.com" });
         setRecipes([
           {
