@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from random import choice
 from faker import Faker
 from app import app
@@ -43,4 +45,5 @@ if __name__ == '__main__':
             recipe.tags.append(choice(tags))
 
         db.session.commit()
-        print("Database seeded successfully!")
+        
+        print("✅ Database seeded successfully!")
