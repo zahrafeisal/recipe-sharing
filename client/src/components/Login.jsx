@@ -13,7 +13,6 @@ function Login() {
     setLoading(true);
 
     try {
-      // Simulating API request (replace with actual API call)
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
       if (email === "user@example.com" && password === "password") {
