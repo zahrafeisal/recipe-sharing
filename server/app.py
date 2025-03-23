@@ -39,7 +39,7 @@ class UserResource(Resource):
 
             return {'message': 'Username and password required'}, 400  
 
-        else:  # Handling login  
+        elif 'login' in request.path:  # Handling login  
             data = request.json  
             user = User.query.filter_by(username=data['username']).first()  
             if user and user.check_password(data['password']):  
@@ -79,7 +79,7 @@ class TagResource(Resource):
         return new_tag.to_dict(), 201  
 
 api = Api(app)  
-api.add_resource(UserResource, '/users', '/users/register') 
+api.add_resource(UserResource, '/users', '/users/register', '/users/login') 
 api.add_resource(RecipeResource, '/recipes')  
 api.add_resource(TagResource, '/tags')  
 
