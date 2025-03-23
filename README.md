@@ -38,9 +38,9 @@ It allows users to:
 </ul>
 
 ## Collaborators
-<ul>
-   <li>[Michael Mbugua](https://github.com/Mbugua254)</li>
-   <li>[Felicia Kwame](https://github.com/Feliciakwame)</li>
-   <li>[Zahra Feisal](https://github.com/zahrafeisal)</li>
-   <li>Daniella Rono</li>
-</ul>
+
+1. [Michael Mbugua](https://github.com/Mbugua254)
+2. [Felicia Kwame](https://github.com/Feliciakwame)
+3. [Zahra Feisal](https://github.com/zahrafeisal)
+4. Daniella Rono
+
