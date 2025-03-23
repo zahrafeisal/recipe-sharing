@@ -36,3 +36,11 @@ It allows users to:
   <li>Frontend: React.js, Vite</li>
   <li>Backend: Flask-SQLAlchemy and RESTful API</li>
 </ul>
+
+## Collaborators
+<ul>
+   <li>[Michael Mbugua](https://github.com/Mbugua254)</li>
+   <li>[Felicia Kwame](https://github.com/Feliciakwame)</li>
+   <li>[Zahra Feisal](https://github.com/zahrafeisal)</li>
+   <li>Daniella Rono</li>
+</ul>
