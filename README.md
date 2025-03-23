@@ -37,7 +37,7 @@ It allows users to:
   <li>Backend: Flask-SQLAlchemy and RESTful API</li>
 </ul>
 
-## Collaborators
+## Contributors
 
 1. [Michael Mbugua](https://github.com/Mbugua254)
 2. [Felicia Kwame](https://github.com/Feliciakwame)
