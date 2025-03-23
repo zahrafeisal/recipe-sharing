@@ -33,6 +33,6 @@ It allows users to:
 ## Technologies used
 
 <ul>
-  <li>Frontend: React.js</li>
+  <li>Frontend: React.js, Vite</li>
   <li>Backend: Flask-SQLAlchemy and RESTful API</li>
 </ul>
