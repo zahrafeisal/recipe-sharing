@@ -14,13 +14,13 @@ It allows users to:
 
 ## Installation and Setup
 
-1. Clone this repository
-2. To install server dependencies, run:
+1. Clone this repository from [https://github.com/zahrafeisal/recipe-sharing](https://github.com/zahrafeisal/recipe-sharing).
+2. To install server dependencies, from the project directory run:
    ```
    pipenv install
    pipenv shell
    ```
-3. To install client dependencies, run:
+3. To install client dependencies, from the project directory run:
    ```
    npm install --prefix client
    ```
